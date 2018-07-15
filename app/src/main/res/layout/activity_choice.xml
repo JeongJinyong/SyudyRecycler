@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoiceActivity"
+    tools:ignore="HardcodedText">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear"
+        android:onClick="onClick"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grid"
+        android:onClick="onClick"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_s_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StGrid"
+        android:onClick="onClick"/>
+</LinearLayout>
